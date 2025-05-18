@@ -38,6 +38,12 @@ print("Your mission is to find the treasure.")
 print("You are currently at a crossroads. Do you go left or right?")
 first_choice = input("      Type either 'left' or 'right'\n")
 
+## Quick Rule of Thumb
+
+# When accepting multiple formats of a correct answer, use == with or
+# When rejecting multiple formats of an incorrect answer, use != with and
+
+
 
 # Check if player chose the correct path (left)
 if first_choice != "left" and first_choice != "Left":
