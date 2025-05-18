@@ -1,0 +1,9 @@
+Overview
+This is a text-based adventure game created as part of Dr. Angela Yu's "100 Days of Code: The Complete Python Pro Bootcamp" course. In this simple game, players make choices that determine whether they find the treasure or meet an unfortunate end.
+
+Skills Practiced
+- Conditional statements (if/elif/else)
+- User input handling
+- String comparison
+- ASCII art for visual feedback
+- Logical operators (AND, OR, NOT)
