@@ -74,7 +74,7 @@ else:
     else:
         # Final decision point - player reached the doors
         print(
-            "You have made it across the lake via boat.\nYou now have came across three doors...\nOne is Red.\nAnother is Blue\nAnd lastly one is Yellow.")
+            "You have made it across the lake via boat.\nYou now have came across three doors...\nOne is Red.\nAnother is Blue\nAnd lastly... one is Yellow.")
         last_choice = input("Now is the time to choose...\n     Choose either 'Red', 'Blue' or 'Yellow'\n")
 
         # Check which door the player chose
