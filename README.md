@@ -1,6 +1,7 @@
 # Python Learning Journey
 
 This repository documents my progression learning Python through Dr. Angela Yu's "100 Days of Code" bootcamp and other resources. Each project represents different skills I've acquired along the way.
+Each project represents my own personal interpretation of the exercise instructions provided in the course.
 
 ## About This Repository
 
