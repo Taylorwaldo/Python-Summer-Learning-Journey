@@ -8,3 +8,31 @@ Skills Practiced
 - String comparison
 - ASCII art for visual feedback
 - Logical operators (AND, OR, NOT)
+
+Problem that I had faced:
+- I originally used == with 'and', != with 'or'
+- Kept getting logic errors
+
+
+
+### NOTES:
+
+### For Multiple Equal Comparisons (==)
+
+When you want to check if a value matches ANY of several possible values, you use or:
+|-----------------------------------------------------------|
+| >>> if last_choice == "Red" or last_choice == "red":      |
+| >>>     # Execute if either condition is true             |
+|-----------------------------------------------------------|
+
+This reads naturally: "If last_choice equals 'Red' OR last_choice equals 'red', then..."
+You want the code block to execute if EITHER condition is true... the user can type either "Red" or "red" to get the same result.
+
+### For Multiple Not-Equal Comparisons (!=)
+When you want to check if a value doesn't match ALL of several possible values, you use and:
+|-----------------------------------------------------------|
+| >>> if first_choice != "left" and first_choice != "Left": |      |
+| >>>     # Execute if either condition is true             |
+|-----------------------------------------------------------|
+This reads: "If first_choice is not 'left' AND first_choice is not 'Left', then..."
+You want the code block to execute only if BOTH conditions are true... meaning the user typed neither "left" nor "Left".
