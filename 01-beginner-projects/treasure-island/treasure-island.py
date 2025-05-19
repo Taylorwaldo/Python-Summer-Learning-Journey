@@ -36,7 +36,8 @@ print("Your mission is to find the treasure.")
 
 # First decision point
 print("You are currently at a crossroads. Do you go left or right?")
-first_choice = input("      Type either 'left' or 'right'\n")
+# first_choice = input("      Type either 'left' or 'right'\n")
+first_choice = input("      Type either \"left\" or \"right\"\n") # Added this, wanted to play with escape
 
 ## Quick Rule of Thumb
 
