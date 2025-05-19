@@ -121,7 +121,7 @@ lose = '''
    ╚═╝    ╚═════╝  ╚═════╝     ╚══════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝
 '''
 
-computer_choose = '''
+computer_chose_ascii = '''
 
 ▀█▀ █ █ █▀▀   █▀▀ █▀█ █▀▄▀█ █▀█ █ █ ▀█▀ █▀▀ █▀█   █▀▀ █ █ █▀█ █▀ █▀▀ 
  █  █▀█ █▀▀   █   █ █ █ ▀ █ █▀▀ █ █  █  █▀▀ █▀▄   █   █▀█ █ █ ▀▀ █▀▀ 
@@ -160,6 +160,10 @@ else:
 
 
 # Possible choices for the CPU
+# I did a list instead of random.randint(0,2) like Dr. Angela Yu had did so the if/elif/else statements were easier to read.
+# She used a list only to print the ASCII art
+# I think this implementation is better on the eyes, but it may use more lines of code.
+
 game_list = ["rock", "paper", "scissors"]
 
 # CPU randomly selects one option
@@ -169,56 +173,60 @@ computer_choice = random.choice(game_list)
 # Game logic
 # Check for all possibilities
 
+
+# User selects '0' (rock)
 if user_selection == 0 and computer_choice == "rock":
     # USER: 0 CPU: rock (DRAW)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(rock)
     print(draw)
 
 elif user_selection == 0 and computer_choice == "paper":
     # USER: 0 CPU: paper (USER loses, Rock loses to paper)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(paper)
     print(lose)
 
 elif user_selection == 0 and computer_choice == "scissors":
     # USER: 0 CPU: scissors (USER wins, Rock wins against scissors)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(scissors)
     print(win)
 
+# User selects '1' (paper)
 elif user_selection == 1 and computer_choice == "rock":
     # USER: 1 CPU: rock (USER wins, Paper wins against rock)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(rock)
     print(win)
 
 elif user_selection == 1 and computer_choice == "paper":
     # USER: 1 CPU: paper (DRAW)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(paper)
     print(draw)
 
 elif user_selection == 1 and computer_choice == "scissors":
     # USER: 1 CPU: scissors (USER loses, Paper loses to scissors)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(scissors)
     print(lose)
 
+# User selects '2' (scissors)
 elif user_selection == 2 and computer_choice == "rock":
     # USER: 2 CPU: rock (USER loses, Scissors loses to rock)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(rock)
     print(lose)
 
 elif user_selection == 2 and computer_choice == "paper":
     # USER: 2 CPU: paper (USER wins, Scissors wins against paper)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(paper)
     print(win)
 
 elif user_selection == 2 and computer_choice == "scissors":
     # USER: 2 CPU: scissors (DRAW)
-    print(computer_choose)
+    print(computer_chose_ascii)
     print(scissors)
     print(draw)
