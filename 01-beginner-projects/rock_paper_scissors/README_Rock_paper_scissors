@@ -1,0 +1,31 @@
+- [Rock Paper Scissors](./01-beginner-projects/rock-paper-scissors): An interactive console game against the computer
+    - A classic game implementation where players choose rock, paper, or scissors to compete against the computer's random choice.
+    - Game Description
+      In Rock Paper Scissors, players experience:
+        1. Selecting their move by typing a number (0 for Rock, 1 for Paper, 2 for Scissors)
+        2. Seeing their choice displayed with ASCII art
+        3. The computer randomly selects its move
+        4. Game logic determines the winner based on traditional rules:
+           - Rock crushes Scissors
+           - Paper covers Rock
+           - Scissors cut Paper
+        5. Player sees the result (win, lose, or draw) with eye-catching ASCII art
+
+      The game offers a visual experience with detailed ASCII art representations for each choice and outcome.
+  - Skills Practiced
+    1. Random module for computer selection
+    2. Conditional logic for game rules
+    3. Input validation
+    4. ASCII art for visual feedback
+    5. String concatenation and formatting
+    6. Program flow control
+  - **How to Run**
+    Simply run the Python script in your terminal:
+    ```
+    python rock-paper-scissors-game.py
+    ```
+
+
+NOTES:
+
+No notes here
