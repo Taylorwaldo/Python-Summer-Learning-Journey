@@ -61,6 +61,32 @@ ________________________________________________________________________________
     ```
     python rock-paper-scissors-game.py
     ```
+    
+- **[Password Generator](./01-beginner-projects/password-generator)**: A customizable password generator with user-defined complexity
+  - A security-focused tool that creates random passwords based on user specifications for letters, symbols, and numbers.
+  - **Program Description**  
+    The Password Generator allows users to:
+      1. Specify how many letters they want in their password (a-z, A-Z)
+      2. Choose the number of symbols to include (!#$%&()*+)
+      3. Select how many numbers to add (0-9)
+      4. Generate a randomized, shuffled password with their specifications
+      5. Receive a secure password ready for use
+   
+    The program creates truly random passwords by shuffling all selected characters, ensuring no predictable patterns.
+  - **Skills Practiced**
+    1. Random module for character selection and shuffling
+    2. Lists and list manipulation
+    3. For loops and range() function
+    4. String methods (join())
+    5. User input handling
+    6. Modular code organization
+    7. Random selection with random.choice()
+  - **How to Run**  
+    Simply run the Python script in your terminal:
+    ```
+    python password_generator.py
+    ```
+    
 
 ## Intermediate Projects
 ____________________________________________________________________________________________________________________________________________________________________________________________________________
