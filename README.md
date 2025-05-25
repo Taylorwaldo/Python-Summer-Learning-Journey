@@ -1,5 +1,8 @@
 # Python Learning Journey
 
+![xl5cyhhqmsab1](https://github.com/user-attachments/assets/36b874c7-1c60-4763-9284-5fac40873034)
+
+
 This repository documents my progression learning Python through Dr. Angela Yu's "100 Days of Code" bootcamp and other resources. Each project represents different skills I've acquired along the way.
 Each project represents my own personal interpretation of the exercise instructions provided in the course.
 
