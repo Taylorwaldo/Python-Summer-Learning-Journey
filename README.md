@@ -88,7 +88,23 @@ ________________________________________________________________________________
     ```
     python password_generator.py
     ```
-**[Hangman](./01-beginner-projects/)**    
+
+- **[Hangman](./01-beginner-projects/hangman_main)**: A classic word-guessing game with ASCII art gallows
+  - A traditional hangman game where players guess letters to uncover a mystery country name before running out of lives.
+  - **Game Description**  
+    Players guess letters to reveal a hidden country name (6 lives total). Wrong guesses draw the hangman, correct guesses reveal letter positions. Features duplicate guess detection and country-themed word list with 100+ countries.
+  - **Skills Practiced**
+    1. While loops and continue statements
+    2. List manipulation and tracking
+    3. Random module for word selection
+    4. Input validation and duplicate checking
+    5. ASCII art integration
+    6. Modular programming with separate files
+  - **How to Run**  
+    Ensure you have `hangman_words.py` and `hangman_art.py` in the same directory, then run:
+    ```
+    python hangman.py
+    ```
     
 
 ## Intermediate Projects
