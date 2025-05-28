@@ -1,5 +1,7 @@
 # Python Learning Journey
 
+![xl5cyhhqmsab1(1)(1)](https://github.com/user-attachments/assets/46900b8c-6515-4731-b8e7-097ca424762f)
+
 This repository documents my progression learning Python through Dr. Angela Yu's "100 Days of Code" bootcamp and other resources. Each project represents different skills I've acquired along the way.
 Each project represents my own personal interpretation of the exercise instructions provided in the course.
 
@@ -61,6 +63,49 @@ ________________________________________________________________________________
     ```
     python rock-paper-scissors-game.py
     ```
+    
+- **[Password Generator](./01-beginner-projects/password-generator)**: A customizable password generator with user-defined complexity
+  - A security-focused tool that creates random passwords based on user specifications for letters, symbols, and numbers.
+  - **Program Description**  
+    The Password Generator allows users to:
+      1. Specify how many letters they want in their password (a-z, A-Z)
+      2. Choose the number of symbols to include (!#$%&()*+)
+      3. Select how many numbers to add (0-9)
+      4. Generate a randomized, shuffled password with their specifications
+      5. Receive a secure password ready for use
+   
+    The program creates truly random passwords by shuffling all selected characters, ensuring no predictable patterns.
+  - **Skills Practiced**
+    1. Random module for character selection and shuffling
+    2. Lists and list manipulation
+    3. For loops and range() function
+    4. String methods (join())
+    5. User input handling
+    6. Modular code organization
+    7. Random selection with random.choice()
+  - **How to Run**  
+    Simply run the Python script in your terminal:
+    ```
+    python password_generator.py
+    ```
+
+- **[Hangman](./01-beginner-projects/hangman_main)**: A classic word-guessing game with ASCII art gallows
+  - A traditional hangman game where players guess letters to uncover a mystery country name before running out of lives.
+  - **Game Description**  
+    Players guess letters to reveal a hidden country name (6 lives total). Wrong guesses draw the hangman, correct guesses reveal letter positions. Features duplicate guess detection and country-themed word list with 100+ countries.
+  - **Skills Practiced**
+    1. While loops and continue statements
+    2. List manipulation and tracking
+    3. Random module for word selection
+    4. Input validation and duplicate checking
+    5. ASCII art integration
+    6. Modular programming with separate files
+  - **How to Run**  
+    Ensure you have `hangman_words.py` and `hangman_art.py` in the same directory, then run:
+    ```
+    python hangman.py
+    ```
+    
 
 ## Intermediate Projects
 ____________________________________________________________________________________________________________________________________________________________________________________________________________
