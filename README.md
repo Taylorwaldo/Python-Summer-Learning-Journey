@@ -92,7 +92,7 @@ ________________________________________________________________________________
 - **[Hangman](./01-beginner-projects/hangman_main)**: A classic word-guessing game with ASCII art gallows
   - A traditional hangman game where players guess letters to uncover a mystery country name before running out of lives.
   - **Game Description**  
-    Players guess letters to reveal a hidden country name (6 lives total). Wrong guesses draw the hangman, correct guesses reveal letter positions. Features duplicate guess detection and country-themed word list with 100+ countries.
+    Players guess letters to reveal a hidden country name (6 lives total). Wrong guesses draw the hangman, correct guesses reveal letter positions. Features enhanced duplicate guess detection for both correct AND incorrect letters (using continue statements) and country-themed word list with 100+ countries.) <-  This fix wasn't coveed in the lession
   - **Skills Practiced**
     1. While loops and continue statements
     2. List manipulation and tracking
