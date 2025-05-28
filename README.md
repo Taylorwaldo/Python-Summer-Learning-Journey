@@ -88,6 +88,7 @@ ________________________________________________________________________________
     ```
     python password_generator.py
     ```
+**[Hangman](./01-beginner-projects/)**    
     
 
 ## Intermediate Projects
