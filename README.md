@@ -102,6 +102,7 @@ ________________________________________________________________________________
     6. Modular programming with separate files
   - **How to Run**  
     Ensure you have `hangman_words.py` and `hangman_art.py` in the same directory, then run:
+    
     ```
     python hangman.py
     ```
