@@ -96,7 +96,7 @@ ________________________________________________________________________________
     1. While loops and continue statements
     2. List manipulation and tracking
     3. Random module for word selection
-    4. Input validation and duplicate checking
+    4. Input validation and duplicate checking (Wasn't included in lession, however I used "continue")
     5. ASCII art integration
     6. Modular programming with separate files
   - **How to Run**  
